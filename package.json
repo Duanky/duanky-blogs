@@ -4,7 +4,6 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "vuepress dev docs",
 		"dev": "vuepress dev docs",
 		"build": "vuepress build docs",
 		"deploy": "bash deploy.sh"
@@ -13,7 +12,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"vuepress": "^0.14.4",
+		"vuepress": "^1.9.7",
 		"vuepress-plugin-cat": "^1.0.3"
 	}
 }
